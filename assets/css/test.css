@@ -1,0 +1,36 @@
+:root {
+  --primary: #ff0000;
+  --background: #555555;
+  --background-dim: #4d4d4d;
+  --background-dim-light: #4d4d4d;
+  --primary-foreground: #ffffff;
+  --foreground: #ededed;
+  --base-unit: 8px;
+}
+
+body,
+html {
+  height: 100%;
+  background-color: var(--background);
+}
+
+#surveyContainer {
+  height: 100%;
+}
+
+#surveyContainer h3 {
+  text-align: center;
+}
+
+#surveyContainer h4 {
+  color: var(--foreground);
+}
+
+#surveyContainer .sd-html {
+  color: var(--foreground);
+}
+
+.flag {
+  opacity: 0.5;
+  font-size: 0.8rem;
+}
